@@ -1,0 +1,9 @@
+{
+  "resume": "# Alex Morgan — fictional candidate\n# Backend engineering\nBuilt Python and FastAPI services for a fictional inventory application, with PostgreSQL persistence and automated tests using pytest.\nPackaged services with Docker and configured GitHub Actions for continuous integration.\n# Search project\nDeveloped a Qdrant vector search prototype in Python, with asynchronous ingestion using asyncio and typed request validation.\n# Frontend project\nCreated a React and TypeScript dashboard for reviewing search results and source evidence.\n# Learning goals\nLearning Kubernetes; no production Kubernetes experience.",
+  "jobs": [
+    {"id":"backend-01", "title":"Backend Engineer", "company":"Northstar Labs (fictional)", "source":"synthetic fixture", "text":"Build Python services with FastAPI and PostgreSQL. Package services with Docker. Maintain automated tests and GitHub Actions workflows. Collaborate with product engineers on reliable APIs."},
+    {"id":"search-02", "title":"Search Platform Engineer", "company":"Atlas Search (fictional)", "source":"synthetic fixture", "text":"Build vector search features using Python and Qdrant. Design asynchronous ingestion pipelines. Operate services on Kubernetes and AWS. Work with a small platform team to improve relevance."},
+    {"id":"frontend-03", "title":"Frontend Engineer", "company":"Cedar Studio (fictional)", "source":"synthetic fixture", "text":"Build accessible React applications with TypeScript. Maintain automated tests. Collaborate with designers and integrate backend services. Familiarity with Docker is useful."},
+    {"id":"ml-04", "title":"Machine Learning Engineer", "company":"Lumen Research (fictional)", "source":"synthetic fixture", "text":"Train machine learning models with PyTorch and Python. Deploy inference workloads on AWS and Kubernetes. Design model evaluation experiments and maintain reliable training pipelines."}
+  ]
+}

@@ -1,0 +1,13 @@
+# Direct dependency versions used for the recorded verification (Python 3.11).
+# Transitive dependencies are resolved by pip; this is not a full lockfile.
+fastapi==0.142.1
+uvicorn==0.54.0
+pydantic==2.13.5
+qdrant-client==1.19.1
+httpx==0.28.1
+beautifulsoup4==4.15.0
+playwright==1.63.0
+instructor==1.17.0
+pytest==9.1.1
+pytest-asyncio==1.4.0
+ruff==0.16.9

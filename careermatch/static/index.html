@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CareerMatch — evidence before inference</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header><a class="brand" href="/">C<span>↗</span> CareerMatch</a><span class="badge">PORTFOLIO LAB · 04</span><a href="/docs">API reference ↗</a></header>
+<main>
+<section class="intro"><p class="eyebrow">A MORE HONEST MATCH</p><h1>Your experience.<br><span>The evidence behind the fit.</span></h1><p class="lede">Compare opportunities, inspect the gaps, and find the experience worth putting first. Every suggested excerpt links back to your original words.</p></section>
+<div class="notice"><span class="dot"></span><strong>Reproducible demo</strong> · Fictional candidate and roles. Local vector ranking; no AI service or account required.</div>
+<div class="workspace">
+<section class="inputs panel"><div class="section-head"><h2>01 / Your inputs</h2><button id="load" class="quiet" type="button">Reset demo</button></div>
+<label for="resume">Master experience document</label><p class="hint">Use plain text with # section headings. Nothing is saved by this app.</p><textarea id="resume" rows="15" spellcheck="false"></textarea>
+<details><summary>Edit job descriptions <span id="job-count"></span></summary><label for="jobs">Jobs as JSON</label><p class="hint">Each needs id, title, company, text, and an optional source.</p><textarea id="jobs" rows="16" spellcheck="false"></textarea></details>
+<button id="run" class="primary" type="button">Find the evidence <span>↗</span></button><p id="status" role="status" aria-live="polite">Loading synthetic inputs…</p>
+<p class="fineprint">Source provenance is not proof of proficiency. This tool recommends excerpts for your review; it does not invent achievements or apply to jobs.</p></section>
+<section class="results" aria-label="Ranked opportunities"><div class="section-head"><h2>02 / Opportunity shortlist</h2><span class="muted">REVIEW, THEN TAILOR</span></div><div id="summary"></div><div id="results"><div class="empty panel"><span>⌁</span><h3>Start with the source.</h3><p>Run the demo to see supported skills, missing evidence, and suggested resume excerpts for each opportunity.</p></div></div></section>
+</div>
+<footer><span>Evidence before inference.</span><span>FastAPI / Qdrant / Pydantic / Playwright</span></footer>
+</main><script src="/static/app.js"></script></body></html>
